@@ -2953,12 +2953,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #0056b3;
+  color: #FFFFFF;
   text-decoration: underline;
 }
 
@@ -2970,6 +2970,10 @@ fieldset:disabled a.btn {
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
   pointer-events: none;
+}
+
+.rodape{
+	padding-bottom: 100px;
 }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -6611,6 +6615,17 @@ button.bg-dark:focus {
   border-top: 1px solid #dee2e6 !important;
 }
 
+.bordabaixo{
+	border-bottom: 0.5px dotted black;
+	width: 100%
+    
+}
+
+.bordacompleta{
+	border: 1px dotted black;
+	margin: 0 auto;
+}
+
 .border-right {
   border-right: 1px solid #dee2e6 !important;
 }
@@ -10044,6 +10059,4 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */.icon1 {
-}
-.contato {
 }
